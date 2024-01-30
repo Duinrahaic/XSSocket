@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XSSocket</name>
+    </assembly>
+    <members>
+        <member name="M:XSSocket.XSSocket.ToggleLayoutMode">
+            <summary>
+            Toggles layout mode on or off.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.TogglePerformanceStats">
+            <summary>
+            Toggles performance overlay on or off.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.Create">
+            <summary>
+            Creates an overlay
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.Recenter">
+            <summary>
+            Re-centers the overlay space.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.Keyboard">
+            <summary>
+            Summons / dismisses the keyboard.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.Layouts">
+            <summary>
+            Summons / dismisses the layout folder.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.Settings">
+            <summary>
+            Summons / dismisses settings panel.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.DeleteAll">
+            <summary>
+            Deletes all active overlays.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.WindowSwitcher">
+            <summary>
+            Toggles on and off grid view.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.MediaPlayPause">
+            <summary>
+            Play/Pauses the media player.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.MediaPrevious">
+            <summary>
+             Goes to the previously played song on the media player.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.MediaNext">
+            <summary>
+             Skips to the next song on the media player.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.WindowSettings">
+            <summary>
+             Toggles if the window settings panel is visible.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.WindowSelect">
+            <summary>
+             Toggles if the window select panel is visible.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.WindowDelete">
+            <summary>
+            Deletes the overlay that has ownership of the window toolbar.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.UpdateMediaPlayerInformation(XSSocket.Models.XSMediaPlayerObject)">
+            <summary>
+            Updates the media player information.
+            <param name='mediaPlayerObject'> is the object that contains the information about the media player. </param>
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.SetXSOverlaySystemSetting">
+            <summary>
+            Sets a user settings.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.SetActiveOverlaySetting">
+            <summary>
+            Sets a setting on the currently active overlay.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.RequestShowTooltip">
+            <summary>
+            Requests to show a tooltip.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.PlayDeviceHaptics(XSSocket.Models.XSHapticsObject)">
+            <summary>
+            Allows you to play haptic feedback on a device.
+            <param name='hapticsObject'> is the object that contains the information about the haptics. </param>
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.OpenSteamVRBindings">
+            <summary>
+            Opens the SteamVR Binding Dashboard Page for XSO.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.SendNotification(XSSocket.Models.XSNotificationObject)">
+            <summary>
+            Sends a notificationObject to the overlay.
+            <param name='notificationObject'> The object that contains the information about the notification. </param>
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.RequestUpdateCursorCollisionTexture(System.UInt64)">
+            <summary>
+            Requests that the collision area for the panel be updated. Prevents cursor being visible on transparent parts of UI. May not update instantly.
+            <param name='overlayHandle'> The id of the overlay to update. </param>
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.RequestUpdateCursorCollisionTexture(System.UInt64,System.Int32,System.Int32)">
+            <summary>
+            Requests that the canvas resolution for the overlay be updated to the requested resolution. May not update instantly.
+            <param name='overlayHandle'> the id of the overlay to update.</param>
+            <param name='width'> The width of the window. </param>
+            <param name='height'> The height of the window. </param>
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.RequestUpdateCursorCollisionTexture(System.UInt64,XSSocket.Models.CanvasSize)">
+            <summary>
+            Requests that the canvas resolution for the overlay be updated to the requested resolution. May not update instantly.
+            <param name='overlayHandle'> The id of the overlay to update.</param>
+            <param name='size'> The dimensions of the window.</param>
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.SubscribeToEvents(System.Collections.Generic.List{XSSocket.XSSubscriptionTag})">
+            <summary>
+            Subscribes to events from the overlay based on the list provided.
+            <param name='tags'> The list of subscription tags to subscribe to. If empty, subscribes to all events. </param>
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.UnsubscribeToEvents(System.Collections.Generic.List{XSSocket.XSSubscriptionTag})">
+            <summary>
+            Unsubscribes to events from the overlay based on the list provided.
+            <param name='tags'> The list of subscription tags to subscribe to. If empty, unsubscribes to all events. </param>
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.RequestDateTime">
+            <summary>
+            Returns the current date and time, including session length, formatted based on User Setting.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.RequestThemeUpdate">
+            <summary>
+            Returns the current theme colors in hexadecimal format.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.RequestSteamAvatar(System.Nullable{XSSocket.Models.AvatarSize})">
+            <summary>
+            Returns the steam avatar of the user.
+            <param name="size"> Represents the requested size of the avatar image. If nothing is submitted the size of the image is 'medium'. </param> 
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.RequestDeviceInformation">
+            <summary>
+            Returns a list of devices and information about those devices.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.RequestLayoutModeState">
+            <summary>
+            Returns the current open / closed state of Layout Mode.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.RequestMediaPlayerUpdate">
+            <summary>
+            Returns the current media information.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.RequestGetSettings">
+            <summary>
+            Returns user settings for the overlay.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.RequestUpdatedLanguageList">
+            <summary>
+            Returns the list of possible languages.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.RequestUpdatedLanguageMap">
+            <summary>
+            Returns the map of strings for the currently selected language.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.RequestAchievementInformation">
+            <summary>
+            Returns list of achievements with a boolean for unlocked / locked for the user.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.RequestWindowList">
+            <summary>
+            Returns a list of windows that can be captured.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.RequestActiveOverlayInformation">
+            <summary>
+            Requests the current active overlay. This is the overlay that has ownership of the window toolbar.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.RequestRuntimePerformance">
+            <summary>
+            Requests information about system resource usage, such as CPU, GPU, and Memory.
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.RequestOverlayIDs">
+            <summary>
+            Requests the lists of overlays and their ids.
+            </summary>
+        </member>
+    </members>
+</doc>

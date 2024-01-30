@@ -1,0 +1,13 @@
+C:\Users\Duinrahaic\RiderProjects\XSSocket\XSSocket\bin\Debug\net7.0\XSSocket.deps.json
+C:\Users\Duinrahaic\RiderProjects\XSSocket\XSSocket\bin\Debug\net7.0\XSSocket.dll
+C:\Users\Duinrahaic\RiderProjects\XSSocket\XSSocket\bin\Debug\net7.0\XSSocket.pdb
+C:\Users\Duinrahaic\RiderProjects\XSSocket\XSSocket\obj\Debug\net7.0\XSSocket.csproj.AssemblyReference.cache
+C:\Users\Duinrahaic\RiderProjects\XSSocket\XSSocket\obj\Debug\net7.0\XSSocket.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Duinrahaic\RiderProjects\XSSocket\XSSocket\obj\Debug\net7.0\XSSocket.AssemblyInfoInputs.cache
+C:\Users\Duinrahaic\RiderProjects\XSSocket\XSSocket\obj\Debug\net7.0\XSSocket.AssemblyInfo.cs
+C:\Users\Duinrahaic\RiderProjects\XSSocket\XSSocket\obj\Debug\net7.0\XSSocket.csproj.CoreCompileInputs.cache
+C:\Users\Duinrahaic\RiderProjects\XSSocket\XSSocket\obj\Debug\net7.0\XSSocket.dll
+C:\Users\Duinrahaic\RiderProjects\XSSocket\XSSocket\obj\Debug\net7.0\refint\XSSocket.dll
+C:\Users\Duinrahaic\RiderProjects\XSSocket\XSSocket\obj\Debug\net7.0\XSSocket.pdb
+C:\Users\Duinrahaic\RiderProjects\XSSocket\XSSocket\obj\Debug\net7.0\ref\XSSocket.dll
+C:\Users\Duinrahaic\RiderProjects\XSSocket\XSSocket\bin\Debug\net7.0\XSSocket.xml

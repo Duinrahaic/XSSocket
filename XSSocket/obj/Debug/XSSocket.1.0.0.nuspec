@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>XSSocket</id>
+    <version>1.0.0</version>
+    <authors>XSSocket</authors>
+    <description>Package Description</description>
+    <copyright>Duinrahaic</copyright>
+    <dependencies>
+      <group targetFramework="net7.0">
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+        <dependency id="System.Drawing.Common" version="8.0.1" exclude="Build,Analyzers" />
+        <dependency id="System.Drawing.Primitives" version="4.3.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Duinrahaic\RiderProjects\XSSocket\XSSocket\bin\Debug\net7.0\XSSocket.dll" target="lib\net7.0\XSSocket.dll" />
+    <file src="C:\Users\Duinrahaic\RiderProjects\XSSocket\XSSocket\bin\Debug\net7.0\XSSocket.xml" target="lib\net7.0\XSSocket.xml" />
+  </files>
+</package>

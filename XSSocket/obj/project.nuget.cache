@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "yyn1PpIyJYvE6kOiicGzB+x+pszSQkPWSAOOLV5Y6HnIjyyOYQj7DOWY3asp/bKZ6d8Md99frgbrfmd7ZtZomQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Duinrahaic\\RiderProjects\\XSSocket\\XSSocket\\XSSocket.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Duinrahaic\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Duinrahaic\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Duinrahaic\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\Duinrahaic\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Duinrahaic\\.nuget\\packages\\system.drawing.common\\8.0.1\\system.drawing.common.8.0.1.nupkg.sha512",
+    "C:\\Users\\Duinrahaic\\.nuget\\packages\\system.drawing.primitives\\4.3.0\\system.drawing.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Duinrahaic\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\Duinrahaic\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
