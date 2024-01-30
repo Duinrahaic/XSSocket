@@ -11,7 +11,7 @@ XSSocket is an XSOverlay API connector for .Net. It allows you to connect to the
 * Send and receive data to the XSOverlay API
 * Events for connection status and data received
 * Enhanced object classes for ease-of-use
-* Fully supports 
+* Fully supports XSOverlay WebSocket API 
 
 ## Usage
 ```csharp    
