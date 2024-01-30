@@ -4,6 +4,636 @@
         <name>XSSocket</name>
     </assembly>
     <members>
+        <member name="T:XSSocket.Models.AccentColor">
+            <summary>
+            Accent Color
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.AccentColor.r">
+            <summary>
+            Red
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.AccentColor.g">
+            <summary>
+            Green
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.AccentColor.b">
+            <summary>
+            Blue. 
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.AccentColor.a">
+            <summary>
+            Alpha.
+            </summary>
+        </member>
+        <member name="M:XSSocket.Models.AccentColor.#ctor">
+            <summary>
+            Accent Color
+            </summary>
+        </member>
+        <member name="M:XSSocket.Models.AccentColor.#ctor(System.Single,System.Single,System.Single)">
+            <summary>
+            Accent Color
+            </summary>
+        </member>
+        <member name="T:XSSocket.Models.AvatarSize">
+            <summary>
+            Avatar Image Size
+            </summary>
+        </member>
+        <member name="F:XSSocket.Models.AvatarSize.Large">
+            <summary>
+            Large Sized Image
+            </summary>
+        </member>
+        <member name="F:XSSocket.Models.AvatarSize.Medium">
+            <summary>
+            Medium Sized Image
+            </summary>
+        </member>
+        <member name="F:XSSocket.Models.AvatarSize.Small">
+            <summary>
+            Small Sized Image
+            </summary>
+        </member>
+        <member name="T:XSSocket.Models.CanvasSize">
+            <summary>
+            Represents the size of the canvas.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.CanvasSize.Width">
+            <summary>
+            Width of the canvas.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.CanvasSize.Height">
+            <summary>
+            Height of the canvas.
+            </summary>
+        </member>
+        <member name="M:XSSocket.Models.CanvasSize.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Represents the size of the canvas.
+            </summary>
+            <param name="width">Width of the canvas.</param>
+            <param name="height">Height of the canvas.</param>
+        </member>
+        <member name="T:XSSocket.Models.ComponentInfo">
+            <summary>
+            Represents a component within a computer.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.ComponentInfo.Type">
+            <summary>
+            Component Type
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.ComponentInfo.Manufacturer">
+            <summary>
+            Component Manufacturer
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.ComponentInfo.Name">
+            <summary>
+            Name of the component
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.ComponentInfo.Temperature">
+            <summary>
+            Temperature of the component. Temperature Unit is based on user settings.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.ComponentInfo.Load">
+            <summary>
+            The utilization of the component. Range between 0 and 100.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.ComponentInfo.MemLoad">
+            <summary>
+            The memory utilization of the component. Range between 0 and 100.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.ComponentInfo.MemSize">
+            <summary>
+            The total memory size of the system. 
+            </summary>
+        </member>
+        <member name="M:XSSocket.Models.ComponentInfo.GetComponentType">
+            <summary>
+            Gets the hardware type.
+            </summary>
+            <returns>
+            The hardware type.
+            </returns>
+        </member>
+        <member name="M:XSSocket.Models.ComponentInfo.GetManufacturer">
+            <summary>
+            Gets the manufacturer type.
+            </summary>
+            <returns>
+            The manufacturer type.
+            </returns>
+        </member>
+        <member name="T:XSSocket.Models.HardwareType">
+            <summary>
+            Hardware Type
+            </summary>
+        </member>
+        <member name="F:XSSocket.Models.HardwareType.Generic">
+            <summary>
+            Default type when hardware type is not identified or specified.
+            </summary>
+        </member>
+        <member name="F:XSSocket.Models.HardwareType.Gpu">
+            <summary>
+            Graphics Processing Unit
+            </summary>
+        </member>
+        <member name="F:XSSocket.Models.HardwareType.Cpu">
+            <summary>
+            Central Processing Unit
+            </summary>
+        </member>
+        <member name="F:XSSocket.Models.HardwareType.Memory">
+            <summary>
+            System Memory
+            </summary>
+        </member>
+        <member name="T:XSSocket.Models.NotificationOffsets">
+            <summary>
+            Represents the notification offset relative to local space to the hmd.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.NotificationOffsets.x">
+            <summary>
+            X Offset
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.NotificationOffsets.y">
+            <summary>
+            Y Offset
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.NotificationOffsets.z">
+            <summary>
+            Z Offset
+            </summary>
+        </member>
+        <member name="M:XSSocket.Models.NotificationOffsets.#ctor">
+            <summary>
+            Represents the notification offset relative to local space to the hmd.
+            </summary>
+        </member>
+        <member name="M:XSSocket.Models.NotificationOffsets.#ctor(System.Single,System.Single,System.Single)">
+            <summary>
+            Represents the notification offset relative to local space to the hmd.
+            </summary>
+        </member>
+        <member name="T:XSSocket.Models.Settings">
+            <summary>
+            Represents Application Settings
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.VersionNumber">
+            <summary>
+            Version Number
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.KeyboardSoundpackName">
+            <summary>
+            Name of the currently loaded Keyboard sound pack
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.KeyboardSoundpackIndex">
+            <summary>
+            Index to the currently loaded keyboard sound pack
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.ForceJISKeyboard">
+            <summary>
+            When enabled, the keyboard is forced into JIS layout 
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.KeyboardFormat">
+            <summary>
+            Format of keyboard (minimal, half size, full)
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.KeyboardOpacity">
+            <summary>
+            The opacity of the keyboard, between 0 and 1
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.KeyboardTypingSounds">
+            <summary>
+            When enabled, the keyboard typing noises are on
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.WristOffsets">
+            <summary>
+            Represents the wrist overlay position in local space. This is relative to the device it's attached to.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.WristRotation">
+            <summary>
+            Represents the wrist overlay rotation, in euler angles, in local space. This is relative to the device it's attached to.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.WristScale">
+            <summary>
+            Wrist overlay scale
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.DominantHand">
+            <summary>
+            Dominant Hand. This would be left (0) or right (1).
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.Language">
+            <summary>
+            Index of the currently selected language. 
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.LanguageURL">
+            <summary>
+            The path to the currently selected language on the system
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.InputMethod">
+            <summary>
+            Represents the input method of cursor when interacting with devices. This would be touch (0) or mouse emulation (1). 
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.AutomaticMouseControl">
+            <summary>
+            When enabled, the mouse cursor automatically moves with the VR Cursor, or if an input is required first. 
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.DoubleClickDelay">
+            <summary>
+            Represents the amount of time in milliseconds after a click that the cursor will freeze in place to allow for easier double-clicking.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.DiscordRichPresence">
+            <summary>
+            When enabled, XSOverlay will communicate to discord what you are playing.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.LowBatterySound">
+            <summary>
+            When enabled, XSOverlay will play a sound when the battery is low.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.LowBatteryWarningPercent">
+            <summary>
+            Represents the threshold of battery percentage that will trigger a low battery warning. This is between 0 and 100.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.HapticsStrength">
+            <summary>
+            Represents the haptics strength when interacting with XSOverlay. This is between 0 and 1.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.HideTooltips">
+            <summary>
+            When enabled, this hides tooltips.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.PointerScale">
+            <summary>
+            Represents the scale of the pointer. This is between 0 and 1.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.CaptureMethod">
+            <summary>
+            Represents the capture method of the overlay. This is either Windows Game Capture (0) or BitBlt (1).
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.ShowWindowPreviews">
+            <summary>
+            When enabled, this will show previews of the windows.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.CurvedOverlays">
+            <summary>
+            When enabled, this allows overlay windows to be curved.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.AutoRecenter">
+            <summary>
+            When enabled, XSOverlay will automatically re-center when layout mode opens.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.InvertScaleGesture">
+            <summary>
+            When enabled, this will invert the scaling direction when scaling the overlay.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.OverlayCurveBias">
+            <summary>
+             Represents the control strength of the overlay curving.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.OverlayClipAngle">
+            <summary>
+            Represents the clip angle to auto-hide overlays when not looking at them. Auto-hide must be enabled for this to work.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.OverlayDefaultScale">
+            <summary>
+            Represents the default scale of the overlay when it is created. This is between 0 and 1.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.OverlayDefaultOpacity">
+            <summary>
+            Represents the default opacity of the overlay when it is created. This is between 0 and 1.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.OverlayDefaultMinFPS">
+            <summary>
+            Represents the default minimum FPS of a newly created overlay overlay.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.OverlayDefaultMaxFPS">
+            <summary>
+            Represents the default maximum FPS of a newly created overlay overlay.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.AimTarget">
+            <summary>
+            Represents the target an overlay will aim at when holding it. This could be mixed (0), head (1), or hand (2). AimAtTarget must be enabled for this to work.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.AimAtTarget">
+            <summary>
+            When enabled, this will aim the overlay at the target when holding it.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.GrabSensitivity">
+            <summary>
+            Represents the sensitivity of the grab gesture. This is between 0 (light) and 1 (hard). 
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.PushSpeed">
+            <summary>
+            Represents the speed of pushing/pulling an overlay. This is between 0 (slow) and 1 (fast).
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.ScaleSpeed">
+            <summary>
+            Represents the speed of scaling an overlay. This is between 0 (slow) and 1 (fast).
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.PositionDampening">
+            <summary>
+            Represents the reaction speed when an overlay adjusts it's position when moving around. This is between 0 and 1.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.RotationDampening">
+            <summary>
+            Represents the reaction speed when an overlay adjusts it's position when moving around. This is between 0 and 1.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.SmartRollAngle">
+            <summary>
+            Represents the angle your head needs relative to the space overlay to to adapt to being sideways. (I.E. For Laying down)
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.AllowWristMovement">
+            <summary>
+            When enabled, this will allow the wrist overlay to be moved.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.HideWristOverlay">
+            <summary>
+            When enabled, this will allow the wrist overlay to be hidden. 
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.WristOpacity">
+            <summary>
+            Represents the opacity of the wrist overlay. This is between 0 and 1.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.WristClipAngle">
+            <summary>
+            Represents the clip angle to auto-hide the wrist overlay when not looking at it. 
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.ContinentalTimeFormat">
+            <summary>
+            When enabled, the time format will be in 24 hour format.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.DateFormat">
+            <summary>
+            Represents the date format. This could be MM/DD/YYYY (0), DD/MM/YYYY (1)
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.AutoMediaDetection">
+            <summary>
+            When enabled, XSOverlay will automatically detect media playing.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.MediaThemeing">
+            <summary>
+            When enabled, XSOverlay will adjust the theme based on the playing media's album art.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.AlwaysShowDetailedInformation">
+            <summary>
+            When enabled, the wrist battery widget will always show battery percentage and time remaining.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.DefaultShowBatteryPercentage">
+            <summary>
+            When enabled, the wrist battery widget will always show battery percentage instead of time remaining.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.BatteryFontScale">
+            <summary>
+            Represents the font-size for the battery widget.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.UseDarkTheme">
+            <summary>
+            When enabled, XSOverlay will use the dark theme.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.AdaptiveColor">
+            <summary>
+            Represents how much mix the accent color into the primary theme color. This is between 0 and 1.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.AccentColor">
+            <summary>
+            Represents the theme accent color.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.NotificationScale">
+            <summary>
+            Represents the notification scale. This is between 0 and 1.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.NotificationOffsets">
+            <summary>
+            Represents the notification offset relative to local space to the hmd.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.ForceHigherQualityOverlays">
+            <summary>
+            When enabled, this will force overlays to be rendered at a higher resolution.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.BlockInputToBackgroundApplication">
+            <summary>
+            When enabled, XSOverlay will attempt to block input to the background application.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.InputBlockingBehavior">
+            <summary>
+            Represents the input blocking behavior. Chose between 'blocking when layout mode is open' (0) or 'blocking when hovering over an overlay' (1).
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.NightLight">
+            <summary>
+            Represents the behavior of the night-light which can apply a red-ish hue to the overlays during select hours (true) or all time (false).
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.NightLightStartHour">
+            <summary>
+            Represents the starting hour of the night light cycle.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.NightLightEndHour">
+            <summary>
+            Represents the ending hour of the night light cycle.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.NightLightStartAMPM">
+            <summary>
+            When enabled, the night light cycle will start at PM, otherwise it will start at AM.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.NightLightEndAMPM">
+            <summary>
+            When enabled, the night light cycle will end at PM, otherwise it will start at AM.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.NightLightIntensity">
+            <summary>
+            Represents the intensity of the night light. This is between 0 and 1.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.NightLightSchedule">
+            <summary>
+            When enabled, the night light will follow a schedule.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.AllowAdminPermissions">
+            <summary>
+            When enabled, XSOverlay will be granted admin permissions.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.UUID">
+            <summary>
+            UUID of the user. This is an anonymous identifier used for analytics.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.Settings.SendAnalytics">
+            <summary>
+            When enabled, the anonymous analytics will be sent.
+            </summary>
+        </member>
+        <member name="T:XSSocket.Models.SystemInfo">
+            <summary>
+            Represents the system information of the system.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.SystemInfo.CPU">
+            <summary>
+            Represents the CPU of the system.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.SystemInfo.GPU">
+            <summary>
+            Represents the GPU of the system.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.SystemInfo.Memory">
+            <summary>
+            Represents the RAM of the system.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.SystemInfo.Frametime">
+            <summary>
+            Current time in ms between the previous frame and this frame.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.SystemInfo.Framerate">
+            <summary>
+            Current framerate in Frames Per Second
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.SystemInfo.MaxFrametime">
+            <summary>
+            Maximum frame-time based on Headset Refresh Rate in ms e.g. 90hz = 11.1ms
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.SystemInfo.MaxFramerate">
+            <summary>
+            Represents the maximum framerate based on Headset Refresh Rate in Frames Per Second e.g. 90hz = 90fps
+            </summary>
+        </member>
+        <member name="T:XSSocket.Models.WristOffsets">
+            <summary>
+            Represents the wrist overlay position in local space, relative to the device it's attached to.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.WristOffsets.x">
+            <summary>
+            X Offset
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.WristOffsets.y">
+            <summary>
+            Y Offset
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.WristOffsets.z">
+            <summary>
+            Z Offset
+            </summary>
+        </member>
+        <member name="T:XSSocket.Models.WristRotation">
+            <summary>
+            Represents the wrist overlay rotation, in euler angles, in local space. This is relative to the device it's attached to.
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.WristRotation.x">
+            <summary>
+            X Rotation
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.WristRotation.y">
+            <summary>
+            Y Rotation
+            </summary>
+        </member>
+        <member name="P:XSSocket.Models.WristRotation.z">
+            <summary>
+            Z Rotation
+            </summary>
+        </member>
+        <member name="M:XSSocket.Models.XSSettingObject.#ctor(System.String,System.Object)">
+            <summary>
+            Represents a setting object that can be sent to the client.
+            <a target="_blank" href="http://www.google.com/">More details.</a>
+            <exception cref="T:System.ArgumentNullException"> Setting value cannot be null.</exception>
+            </summary>
+        </member>
         <member name="M:XSSocket.XSSocket.ToggleLayoutMode">
             <summary>
             Toggles layout mode on or off.
@@ -85,14 +715,38 @@
             <param name='mediaPlayerObject'> is the object that contains the information about the media player. </param>
             </summary>
         </member>
-        <member name="M:XSSocket.XSSocket.SetXSOverlaySystemSetting">
+        <member name="M:XSSocket.XSSocket.SetXSOverlaySystemSetting(System.String,System.Object)">
             <summary>
             Sets a user settings.
+            <a target="_blank" href="http://www.google.com/">More details.</a>.
+            <param name="settingName"> Represents the setting name. </param>
+            <param name="value"> Represents how the setting should be altered.</param>
+            <exception cref="T:System.ArgumentNullException"> Value cannot be null.</exception>
             </summary>
         </member>
-        <member name="M:XSSocket.XSSocket.SetActiveOverlaySetting">
+        <member name="M:XSSocket.XSSocket.SetXSOverlaySystemSetting(XSSocket.Models.XSSettingObject)">
+            <summary>
+            Sets a user settings.
+            <a target="_blank" href="http://www.google.com/">More details.</a>.
+            <param name="setting"> Represents the setting that should be changed and how it should be altered.</param>
+            <exception cref="T:System.ArgumentNullException"> Setting value cannot be null.</exception>
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.SetActiveOverlaySetting(System.String,System.Object)">
             <summary>
             Sets a setting on the currently active overlay.
+            <a target="_blank" href="http://www.google.com/">More details.</a>.
+            <param name="settingName"> Represents the setting name. </param>
+            <param name="value"> Represents how the setting should be altered.</param>
+            <exception cref="T:System.ArgumentNullException"> Value cannot be null.</exception>
+            </summary>
+        </member>
+        <member name="M:XSSocket.XSSocket.SetActiveOverlaySetting(XSSocket.Models.XSSettingObject)">
+            <summary>
+            Sets a setting on the currently active overlay.
+            <a target="_blank" href="http://www.google.com/">More details.</a>.
+            <param name="setting"> Represents the setting that should be changed and how it should be altered.</param>
+            <exception cref="T:System.ArgumentNullException"> Setting value cannot be null.</exception>
             </summary>
         </member>
         <member name="M:XSSocket.XSSocket.RequestShowTooltip">

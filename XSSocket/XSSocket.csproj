@@ -7,7 +7,11 @@
         <Copyright>Duinrahaic</Copyright>
         <Title>XSSocket</Title>
         <PackageIcon>XSSocketIcon.png</PackageIcon>
-        <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+        <Description> A .Net Websocket Connector for XSOverlay </Description>
+        <PackageLicenseUrl>https://github.com/Duinrahaic/XSSocket/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/Duinrahaic/XSSocket</RepositoryUrl>
+        <PackageTags>XSOverlay</PackageTags>
+        <TargetFramework>net7.0</TargetFramework>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">

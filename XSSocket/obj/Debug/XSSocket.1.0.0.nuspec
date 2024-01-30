@@ -3,10 +3,20 @@
   <metadata>
     <id>XSSocket</id>
     <version>1.0.0</version>
+    <title>XSSocket</title>
     <authors>XSSocket</authors>
-    <description>Package Description</description>
+    <licenseUrl>https://github.com/Duinrahaic/XSSocket/blob/master/LICENSE</licenseUrl>
+    <icon>XSSocketIcon.png</icon>
+    <description>A .Net Websocket Connector for XSOverlay</description>
     <copyright>Duinrahaic</copyright>
+    <tags>XSOverlay</tags>
+    <repository url="https://github.com/Duinrahaic/XSSocket" />
     <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+        <dependency id="System.Drawing.Common" version="8.0.1" exclude="Build,Analyzers" />
+        <dependency id="System.Drawing.Primitives" version="4.3.0" exclude="Build,Analyzers" />
+      </group>
       <group targetFramework="net7.0">
         <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
         <dependency id="System.Drawing.Common" version="8.0.1" exclude="Build,Analyzers" />
@@ -15,6 +25,8 @@
     </dependencies>
   </metadata>
   <files>
+    <file src="C:\Users\Duinrahaic\RiderProjects\XSSocket\XSSocket\bin\Debug\net6.0\XSSocket.dll" target="lib\net6.0\XSSocket.dll" />
+    <file src="C:\Users\Duinrahaic\RiderProjects\XSSocket\XSSocket\bin\Debug\net6.0\XSSocket.xml" target="lib\net6.0\XSSocket.xml" />
     <file src="C:\Users\Duinrahaic\RiderProjects\XSSocket\XSSocket\bin\Debug\net7.0\XSSocket.dll" target="lib\net7.0\XSSocket.dll" />
     <file src="C:\Users\Duinrahaic\RiderProjects\XSSocket\XSSocket\bin\Debug\net7.0\XSSocket.xml" target="lib\net7.0\XSSocket.xml" />
   </files>
