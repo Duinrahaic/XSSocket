@@ -54,6 +54,17 @@ public static async Task Main(string[] args)
 
 ```
 
+## Nuget
+Nuget is available [here](https://www.nuget.org/packages/XSSocket)
+
+## Installation 
+
+
+1. Open a command line and switch to the directory that contains your project file.
+2. Use the following command to install a NuGet package:
+`dotnet add package XSSocket`
+
+
 ## Demo
 The demo project is a simple console application that connects to the XSOverlay API and demonstrates how to utilize various features of the connectors and the API.
 
