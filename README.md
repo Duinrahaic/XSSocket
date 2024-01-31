@@ -1,7 +1,6 @@
 
 <p align="center">
-  <img src="XSSocket/XSSocket.png"   width="800" 
-        height="600" 
+  <img src="XSSocket/XSSocket.png"
         style="display: block; margin: 0 auto"/>
 
 </p>
